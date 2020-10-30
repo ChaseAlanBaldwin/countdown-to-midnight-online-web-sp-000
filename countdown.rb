@@ -1,10 +1,10 @@
 #write your code here
 
 def countdown(count)
-  count -= 1
-  while count > 1 do
-    count -= 1
-    $stdout.puts "#{count} SECOND(S)!"
+x = 0
+  while !(count === x) do
+    x += 1
+    puts "#{count} SECOND(S)!"
   end
   "HAPPY NEW YEAR!"
 end
