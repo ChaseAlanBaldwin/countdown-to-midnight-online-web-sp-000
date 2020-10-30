@@ -2,6 +2,9 @@
 
 def countdown(count)
   while count > 0 do
+  if count == 0 
+    break
+  end
     count -= 1
     puts "#{count} SECOND(S)!"
   end
