@@ -5,7 +5,7 @@ x = 1
 count -= 1
   while !(count === x) do
     count -= 1
-    print "#{count} SECOND(S)!"
+    puts "#{count} SECOND(S)!"
   end
   "HAPPY NEW YEAR!"
 end
